@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <title>AnalogSea Sign Up</title>
     <meta name="description" content="AnalogSea's sign up page.">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="/css/master.css">
   </head>
-  <body>
+  <body class="body">
     <section class="logo">
       <img src="images/logo.png" alt="AnalogSea Logo">
     </section>
     <main class="form">
+      <h1>Sign Up</h1>
       <form class="signup" action="/signup/" method="post">
         <label for="email">Email</label>
         <input type="email" name="email" placeholder="foo@bar.com"/>
@@ -19,7 +21,7 @@
         <input type="password" name="password" placeholder="1234passw0rd"/>
         <button type="button" name="signup">Sign up</button>
       </form>
-      <a href="/forgot-password/new">Forgot password?</a>
+      <a href="/forgot-password/new" class="fpass">Forgot password?</a>
     </main>
     <section class="login">
       <p>Already have an account? <a href="/login">Log in</a></p>

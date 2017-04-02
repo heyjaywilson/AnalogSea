@@ -1,8 +1,62 @@
-/*
-button color #7dc179
-forgot pass color #a09ba7
-*/
-body{
+*{
+  box-sizing: border-box;
+}
+.body{
   background-color: #5593e0;
   font-family: 'Roboto', sans-serif;
+}
+.logo, .form {
+  margin: auto;
+}
+.logo{
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.logo img{
+  height: 35px;
+}
+.form{
+  background-color: white;
+  border-radius: 4px;
+  width: 400px;
+  padding: 40px;
+  text-align: center;
+}
+h1{
+  margin-top: 0;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+.signup{
+  text-align: left;
+}
+input, button {
+  width: 320px;
+  height: 55px;
+  padding: 15px;
+  border: 2px solid rgb(170, 165, 177);
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+button{
+  background-color: #7dc179;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0;
+  border: 2px solid #7dc179;
+}
+.fpass {
+  color: rgb(170, 165, 177);
+}
+.login{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.login a{
+  color: white;
 }
